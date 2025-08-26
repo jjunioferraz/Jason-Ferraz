@@ -1,0 +1,178 @@
+
+        :root{
+      --texto:#e5e7eb;                /* texto principal */
+      --textosecundario:#94a3b8;      /* texto secundário */
+      --bg:#1f1f1f;                   /* Plano de fundo */
+      --bgbarra: #1a1a1a;             /* plano de fundo da barra */
+      --Branco: #ffffff; 
+      --Preto: #000000;            
+      --font: 'Poppins', sans-serif;     /* fonte do Google */
+        }
+
+body {
+    background-color: var(--bg); 
+    color: var(--textosecundario); 
+    font-family: var(--font);
+    margin: 0;
+}
+
+.barra {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 190px;
+    background-color: var(--bgbarra); 
+    border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
+}
+
+.PortfólioPessoal {
+    color: var(--texto);
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    list-style: none; 
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.links li a {
+    color: #e5e7eb; 
+    text-decoration: none; 
+    padding: 8px 12px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+
+.links li a:hover {
+    background-color: #1b2336; 
+}
+
+.banner{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    line-height: 0.0;
+    letter-spacing: 2px;
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
+.banner{
+    background-color: var(--Preto);
+    color: var(--Branco);
+    padding: 15%;
+}
+
+.foto{
+float: right; 
+width: 15%;
+margin-right: 10px;
+padding: 5%;
+border-radius: 1000px;
+}
+
+.sobre-mim{
+    background: var(--bgbarra);
+    margin-left: 50px;
+    height: 0px;
+    width: 50%;
+    font-size: 18px;
+    float: right;
+}
+
+.FotoLink{
+    width: 70px;
+    float: right;
+    margin-right: 800px;
+    border-radius: 100px;
+}
+
+.Instagram {
+    float: right;
+    margin-right: -170px;
+    line-height: 0.1;
+    font-size: 12px;
+}
+
+.formacao{
+    background: var(--bgbarra);
+    padding: 50px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(102, 102, 102, 0.1);
+    height: auto;
+    width: 40%;
+    font-size: 18px;
+    margin: 0px 26%;
+
+}
+.form{    
+    background: var(--bgbarra);
+    padding: 30px;
+    border-radius: 20px;
+    width: 40%;
+    font-size: 18px;
+    margin: 0px 50%;
+}
+
+.intens{
+    float: right;
+width: 20px; 
+height: 20px;
+margin: 6px;
+}
+
+.projetos{
+    Display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+}
+.cartao{ 
+    background: var(--bgbarra); 
+    padding: 20px; 
+    border-radius: 10px; 
+    transition: 0.3s; 
+}
+.cartao:hover{ 
+    transform: scale(1.05); 
+    background: #262626; 
+}
+.cartao h3{ 
+    margin-bottom: 10px; 
+}
+.cartao a{ 
+    color: #00bfff; 
+    text-decoration: none; 
+}
+.contato{
+    text-align: center;
+    font-size: 18px;
+}
+.barra2{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 190px;
+    background-color: var(--bgbarra); 
+    border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
+}
+
+.contato2{
+    height: 10px;
+    margin-left: 440px;
+    width: 100px;
+    color: var(--Branco);
+}
+
+.contato3{
+    height: 10px;
+    margin-left: 0px;
+    width: 1000px;
+    font-size: 18px;
+    text-align: center;
+}
