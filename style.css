@@ -18,6 +18,9 @@ body {
     font-size: var(--font-size); 
     margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .barra {
     display: flex; 
