@@ -7,13 +7,9 @@
       --Branco: #ffffff; 
       --Preto: #000000;            
       --font: 'Poppins', sans-serif;     /* fonte do Google */
-      --font-size: 14px;
+      --font-size: 12px;
         }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+
 
 body {
     background-color: var(--bg); 
@@ -22,20 +18,19 @@ body {
     font-size: var(--font-size); 
     margin: 0;
 }
-html {
-    font-size: 14px;}  
+
 .barra {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 15px 190px;
+    padding: 9px 190px;
     background-color: var(--bgbarra); 
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
 .PortfólioPessoal {
     color: var(--texto);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     display: flex;
     align-items: center;
 }
@@ -60,13 +55,14 @@ html {
 
 .banner {
     font-family: 'Signika Negative', sans-serif;
-    font-size: 2.5rem; /* 40px (2.5 × 16) */
-    font-weight: 400; 
-    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 200;
+    line-height: 0.0; 
+    letter-spacing: 1px;
     text-transform: uppercase;
     background-color: var(--Preto);
     color: var(--Branco);
-    padding: 12% 5%
+    padding: 10% 5%
 }
 
 .foto{
@@ -78,13 +74,11 @@ border-radius: 1000px;
 }
 
 .sobre-mim{
-    background: var(--bgbarra);
-    padding: 40px;
-    border-radius: 20px;
-    font-size: 18px;
-    margin: 40px auto;
-    max-width: 1000px;
-    text-align: justify;
+  background: var(--bgbarra);
+  margin-left: 50px; 
+  height: 0px; width: 50%; 
+  font-size: 14px; 
+  float: right;
 }
 
 .FotoLink{
@@ -93,28 +87,28 @@ border-radius: 1000px;
 }
 
 .Instagram {
-      display: flex;
+    display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--texto);
     margin-top: 20px;
 }
 
 .formacao{
    background: var(--bgbarra);
-    padding: 40px;
+    padding: 20px;
     margin: 40px auto;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.1);
-    font-size: 18px;
+    font-size: 14px;
     max-width: 1000px;
 }
 .form{    
    background: var(--bgbarra);
     padding: 40px;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 14px;
     margin: 40px auto;
     max-width: 1000px;
 }
@@ -157,8 +151,7 @@ margin: 6px;
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
 .contato{
-    color: var(--Branco);
-    font-size: 16px;
-    margin: 0 15px;
-    text-align: left;
+    color: var(--textosecundario);
+    font-size: 13px;
+    margin: 0 20px;
 }
