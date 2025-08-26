@@ -9,6 +9,11 @@
       --font: 'Poppins', sans-serif;     /* fonte do Google */
       --font-size: 14px;
         }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 body {
     background-color: var(--bg); 
@@ -18,8 +23,7 @@ body {
     margin: 0;
 }
 html {
-    font-size: 16px;}
-
+    font-size: 14px;}  
 .barra {
     display: flex; 
     justify-content: space-between; 
@@ -28,7 +32,6 @@ html {
     background-color: var(--bgbarra); 
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
-
 .PortfólioPessoal {
     color: var(--texto);
     font-weight: bold;
@@ -36,7 +39,6 @@ html {
     display: flex;
     align-items: center;
 }
-
 .links {
     list-style: none; 
     display:flex;
@@ -77,11 +79,12 @@ border-radius: 1000px;
 
 .sobre-mim{
     background: var(--bgbarra);
-    margin-left: 50px;
-    height: 0px;
-    width: 50%;
+    padding: 40px;
+    border-radius: 20px;
     font-size: 18px;
-    float: right;
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: justify;
 }
 
 .FotoLink{
@@ -99,25 +102,21 @@ border-radius: 1000px;
 }
 
 .formacao{
-    background: var(--bgbarra);
-    padding: 50px;
-    margin-bottom: 25px;
+   background: var(--bgbarra);
+    padding: 40px;
+    margin: 40px auto;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.1);
-    height: auto;
-    width: 40%;
     font-size: 18px;
-    margin: 20px auto;
-
+    max-width: 1000px;
 }
 .form{    
-    background: var(--bgbarra);
-    padding: 30px;
+   background: var(--bgbarra);
+    padding: 40px;
     border-radius: 20px;
-    width: 40%;
     font-size: 18px;
-    margin: 20px auto;
-    float: none;
+    margin: 40px auto;
+    max-width: 1000px;
 }
 
 .intens{
@@ -149,10 +148,6 @@ margin: 6px;
     color: #00bfff; 
     text-decoration: none; 
 }
-.contato{
-    text-align: center;
-    font-size: 18px;
-}
 .barra2{
     display: flex; 
     justify-content: space-between; 
@@ -161,11 +156,9 @@ margin: 6px;
     background-color: var(--bgbarra); 
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
-
-.contato3{
+.contato{
     color: var(--Branco);
     font-size: 16px;
     margin: 0 15px;
     text-align: left;
 }
-
