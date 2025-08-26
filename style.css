@@ -7,7 +7,7 @@
       --Branco: #ffffff; 
       --Preto: #000000;            
       --font: 'Poppins', sans-serif;     /* fonte do Google */
-      --font-size: 16px;
+      --font-size: 14px;
         }
 
 body {
@@ -95,7 +95,7 @@ border-radius: 1000px;
     float: right;
     margin-right: -170px;
     line-height: 0.1;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .formacao{
@@ -162,11 +162,10 @@ margin: 6px;
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
 
-.contato2{
-    height: 10px;
-    margin-left: 440px;
-    width: 100px;
-    color: var(--Branco);
+.contato2{float: left;
+    width: 1000px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .contato3{
