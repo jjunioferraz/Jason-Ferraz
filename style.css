@@ -85,17 +85,17 @@ border-radius: 1000px;
 }
 
 .FotoLink{
-    width: 70px;
-    float: right;
-    margin-right: 800px;
+     width: 70px;
     border-radius: 100px;
 }
 
 .Instagram {
-    float: right;
-    margin-right: -170px;
-    line-height: 0.1;
+      display: flex;
+    align-items: center;
+    gap: 10px;
     font-size: 14px;
+    color: var(--texto);
+    margin-top: 20px;
 }
 
 .formacao{
@@ -117,7 +117,7 @@ border-radius: 1000px;
     width: 40%;
     font-size: 18px;
     margin: 20px auto;
-    float: right;
+    float: none;
 }
 
 .intens{
@@ -157,21 +157,17 @@ margin: 6px;
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 15px 190px;
+    padding: 15px;
     background-color: var(--bgbarra); 
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
 
-.contato2{float: left;
-    width: 1000px;
-    font-size: 18px;
+
+
+.contato3{
+    color: var(--Branco);
+    font-size: 16px;
+    margin: 0 15px;
     text-align: center;
 }
 
-.contato3{
-    height: 10px;
-    margin-left: 0px;
-    width: 1000px;
-    font-size: 18px;
-    text-align: center;
-}
