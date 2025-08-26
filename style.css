@@ -151,10 +151,23 @@ margin: 6px;
     align-items: center; 
     padding: 15px;
     background-color: var(--bgbarra); 
-    border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
+    border-bottom: 1px solid #4b4a4a;
 }
 .contato{
     color: var(--textosecundario);
     font-size: 13px;
     margin: 0 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
 }
