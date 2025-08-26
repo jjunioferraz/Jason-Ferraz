@@ -162,12 +162,10 @@ margin: 6px;
     border-bottom: 1px solid #4b4a4a; /* Linha na parte da barra */
 }
 
-
-
 .contato3{
     color: var(--Branco);
     font-size: 16px;
     margin: 0 15px;
-    text-align: center;
+    text-align: left;
 }
 
