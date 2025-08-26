@@ -7,7 +7,7 @@
       --Branco: #ffffff; 
       --Preto: #000000;            
       --font: 'Poppins', sans-serif;     /* fonte do Google */
-      --font-size: 16px;
+      --font-size: 14px;
         }
 
 body {
@@ -30,7 +30,7 @@ body {
 .PortfólioPessoal {
     color: var(--texto);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     display: flex;
     align-items: center;
 }
@@ -83,7 +83,7 @@ border-radius: 1000px;
     margin-left: 50px;
     height: 0px;
     width: 50%;
-    font-size: 18px;
+    font-size: 14px;
     float: right;
 }
 
@@ -98,7 +98,7 @@ border-radius: 1000px;
     float: right;
     margin-right: -170px;
     line-height: 0.1;
-    font-size: 12px;
+    font-size: 9%;
 }
 
 .formacao{
@@ -109,7 +109,7 @@ border-radius: 1000px;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.1);
     height: auto;
     width: 40%;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0px 26%;
 
 }
@@ -153,7 +153,7 @@ margin: 6px;
 }
 .contato{
     text-align: center;
-    font-size: 18px;
+    font-size: 11px;
 }
 .barra2{
     display: flex; 
